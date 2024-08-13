@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -18,7 +22,6 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
- 
 }
  
 header img {
@@ -75,6 +78,33 @@ main{
     margin : 30px;
 }
 
+.experiences{
+    border-right: solid black;
+    width: 100%;
+}
+
+.experiences h2,
+.experiences h3,
+.experiences p,
+.experiences ul{
+    margin: 30px;
+}
+
+.experiences h2{
+    background-color: #dbc2a4;
+    border-left: 10px solid #782221;
+    padding-left: 10px;
+}
+
 footer{
     background-color: #782221;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
 }
