@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../font/Raleway-Bold.woff');
+    src: url('../font/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../font/Raleway-Italic.woff');
+    src: url('../font/Raleway-Italic.ttf') format('trutype');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../font/Raleway-VariableFont_wght.woff');
+    src: url('../font/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3{
+    font-family: "Lato", sans-serif;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 
 a{
@@ -18,7 +45,6 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
- 
 }
  
 header img {
@@ -37,8 +63,12 @@ header img:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.head h1{
+    margin: 30px;
 }
 
 .contact{
@@ -50,6 +80,10 @@ header img:hover{
     padding: 30px;
 }
 
+.contact a:hover{
+    text-decoration: underline;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -58,15 +92,67 @@ main{
 .skills{
     background-color:  #782221;
     width: 387px;
+    color: white;
 }
 
 .skills h2{
     background-color: #dbc2a4;
+    color: black;
     text-indent: 30px;
-    margin-right: 200px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .skills p{
     text-indent: 30px;
+    text-align: justify;
+    margin : 30px;
 }
 
+.experiences{
+    border-right: solid black;
+    width: 100%;
+}
+
+.experiences h2,
+.experiences h3,
+.experiences p,
+.experiences ul{
+    margin: 30px;
+}
+
+.experiences h2{
+    background-color: #dbc2a4;
+    border-left: 10px solid #782221;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #782221;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+footer img:hover{
+    opacity: 50%;
+}
+
+.pro h3:hover{
+    border-right: solid #782221;
+}
+
+.training p:hover{
+    border-right: solid #782221;
+}
+
+.competence li:hover{
+    border-right: solid #782221;
+}
