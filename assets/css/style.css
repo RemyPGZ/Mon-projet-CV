@@ -76,6 +76,10 @@ header img:hover{
     padding: 30px;
 }
 
+.contact a:hover{
+    text-decoration: underline;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -130,4 +134,8 @@ footer img{
     height: 50px;
     width: 50px;
     margin: 10px;
+}
+
+footer img:hover{
+    opacity: 50%;
 }
