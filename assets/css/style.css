@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @font-face {
-    font-family: "Relaway";
+    font-family: "Raleway";
     src: url('../font/Raleway-Bold.woff');
     src: url('../font/Raleway-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Relaway";
+    font-family: "Raleway";
     src: url('../font/Raleway-Italic.woff');
     src: url('../font/Raleway-Italic.ttf') format('trutype');
 }
 
 @font-face {
-    font-family: "Relaway";
+    font-family: "Raleway";
     src: url('../font/Raleway-VariableFont_wght.woff');
     src: url('../font/Raleway-VariableFont_wght.ttf') format('truetype');
 }
@@ -27,7 +27,7 @@ h3{
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: "Relaway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 a{
@@ -63,8 +63,12 @@ header img:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.head h1{
+    margin: 30px;
 }
 
 .contact{
@@ -102,6 +106,7 @@ main{
 
 .skills p{
     text-indent: 30px;
+    text-align: justify;
     margin : 30px;
 }
 
@@ -138,4 +143,16 @@ footer img{
 
 footer img:hover{
     opacity: 50%;
+}
+
+.pro h3:hover{
+    border-right: solid #782221;
+}
+
+.training p:hover{
+    border-right: solid #782221;
+}
+
+.competence li:hover{
+    border-right: solid #782221;
 }
